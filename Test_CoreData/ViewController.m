@@ -49,7 +49,7 @@
 
 - (void) generateCard
 {
-    // First Course object
+    // First Card object
     Card *card = (Card *) [NSEntityDescription insertNewObjectForEntityForName:@"Card" inManagedObjectContext:[self managedObjectContext]];
     card.card_name = @"Eduardo Flores";
     card.card_issuer = @"HOA";
